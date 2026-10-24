@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+models/*.gguf
+models/*.part
+results/*.sqlite*
+results/*.lock
+.data-venv/
+artifacts/matplotlib-cache/

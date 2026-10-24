@@ -1,0 +1,28 @@
+{
+  "requested_source": "https://huggingface.co/datasets/openai/gsm8k",
+  "configuration": "main",
+  "huggingface_revision": "740312add88f781978c0658806c59bc2815b9866",
+  "github_revision": "3101c7d5072418e28b9008a6636bde82a006892c",
+  "checks": [
+    {
+      "split": "test",
+      "huggingface_rows": 1319,
+      "used_rows": 1319,
+      "all_questions_answers_and_order_identical": true,
+      "mismatch_indices": [],
+      "parquet_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet"
+    },
+    {
+      "split": "train",
+      "huggingface_rows": 7473,
+      "used_rows": 7473,
+      "all_questions_answers_and_order_identical": true,
+      "mismatch_indices": [],
+      "parquet_sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/train-00000-of-00001.parquet"
+    }
+  ],
+  "verified_identical": true,
+  "pyarrow_version": "25.0.1"
+}

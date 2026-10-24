@@ -1,0 +1,1 @@
+Explain the solution step by step in natural language. End with exactly one final line of the form FINAL: <number>. The number must be an integer, decimal, or fraction. Do not put anything after this line.

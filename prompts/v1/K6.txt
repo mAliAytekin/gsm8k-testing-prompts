@@ -1,0 +1,1 @@
+Output only a short Python 3.12 program using SymPy 1.13.3 to represent and solve the problem. Use exact SymPy numbers, expressions, or equations as appropriate. Print exactly one line: FINAL: <number>, where <number> is an integer, decimal, or fraction. No prose or Markdown. No input(), files, network, or randomness.

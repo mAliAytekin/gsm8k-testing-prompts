@@ -1,0 +1,20 @@
+{
+  "split_manifest_hash": "ed6a684b1aee8367ffa6566f2883769ea418536ddee7d4cf22c581971ec10413",
+  "models": {
+    "lfm2-1.2b": {
+      "digest": "9b23668b4d8ddc07e6c380faf779f273714e4221ce126b324e0ff62f25f3e57f"
+    },
+    "lfm2-350m": {
+      "digest": "7882d78c06dbbe699134345a78284aba6cfba6ac03be8afd12beae1a760b62e7"
+    },
+    "lfm2-700m": {
+      "digest": "2c8563b39f30b6fa853d1a9d3a6066c4e86e71409cbe7819d4a17fb4ce39bd57"
+    },
+    "qwen3-0.6b": {
+      "digest": "03b681e337f70e7d44ef27719410aa95b5f387a6b533cb6c22a1298dbd223e4f"
+    },
+    "qwen3-1.7b": {
+      "digest": "c2ed9851aee06596a3862e7bf9eb94307473fe3a95e3e76a60c3978f462b3c94"
+    }
+  }
+}

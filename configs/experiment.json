@@ -1,0 +1,34 @@
+{
+  "protocol_version": "base-warm-v3",
+  "ollama_url": "http://127.0.0.1:11434",
+  "models": [
+    "lfm2-350m",
+    "lfm2-700m",
+    "lfm2-1.2b",
+    "qwen3-0.6b",
+    "qwen3-1.7b"
+  ],
+  "demo_pair": "A",
+  "seed": 20261021,
+  "options": {
+    "temperature": 0,
+    "seed": 20261021,
+    "num_ctx": 4096,
+    "num_predict": 512,
+    "top_k": 1,
+    "top_p": 1.0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0,
+    "repeat_last_n": 64,
+    "num_thread": 8,
+    "num_batch": 512
+  },
+  "qwen_think": false,
+  "keep_alive": "30m",
+  "request_timeout_seconds": 180,
+  "transport_retries": 1,
+  "sandbox_image": "gsm8k-sandbox:py3.12.8-sympy1.13.3",
+  "sandbox_wall_seconds": 15,
+  "bootstrap_samples": 10000,
+  "database": "results/base-warm.sqlite"
+}

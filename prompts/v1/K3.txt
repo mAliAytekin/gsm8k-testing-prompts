@@ -1,0 +1,1 @@
+Output only one arithmetic expression. Permitted: decimal or integer literals, parentheses, +, -, *, /, //, %, **, unary + and -. Exponents must be integers from -12 to 12. No variables, functions, equations, prose, labels, or Markdown. An external exact arithmetic calculator evaluates the expression to obtain the answer.

@@ -1,0 +1,2 @@
+FROM /Users/mytkn/Desktop/myExperiments/gsm8k/models/LFM2-1.2B-Q8_0.gguf
+PARAMETER num_ctx 4096

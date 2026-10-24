@@ -1,0 +1,199 @@
+{
+  "_id": "68724edd0a5c01851261870c",
+  "id": "LiquidAI/LFM2-700M-GGUF",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "tags": [
+    "gguf",
+    "liquid",
+    "lfm2",
+    "edge",
+    "llama.cpp",
+    "text-generation",
+    "en",
+    "ar",
+    "zh",
+    "fr",
+    "de",
+    "ja",
+    "ko",
+    "es",
+    "base_model:LiquidAI/LFM2-700M",
+    "base_model:quantized:LiquidAI/LFM2-700M",
+    "license:other",
+    "endpoints_compatible",
+    "region:us",
+    "conversational"
+  ],
+  "downloads": 13656,
+  "likes": 56,
+  "modelId": "LiquidAI/LFM2-700M-GGUF",
+  "author": "LiquidAI",
+  "sha": "fd39e80d7a5ac61494ffff577e61bbbfddbd0d02",
+  "lastModified": "2026-08-24T19:42:32.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+    {
+      "text": "Hi, what can you help me with?"
+    },
+    {
+      "text": "What is 84 * 3 / 2?"
+    },
+    {
+      "text": "Tell me an interesting fact about the universe!"
+    },
+    {
+      "text": "Explain quantum computing in simple terms."
+    }
+  ],
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "other",
+    "license_name": "lfm1.0",
+    "license_link": "LICENSE",
+    "language": [
+      "en",
+      "ar",
+      "zh",
+      "fr",
+      "de",
+      "ja",
+      "ko",
+      "es"
+    ],
+    "pipeline_tag": "text-generation",
+    "tags": [
+      "liquid",
+      "lfm2",
+      "edge",
+      "llama.cpp",
+      "gguf"
+    ],
+    "base_model": [
+      "LiquidAI/LFM2-700M"
+    ]
+  },
+  "gguf": {
+    "total": 742489344,
+    "architecture": "lfm2",
+    "context_length": 128000,
+    "chat_template": "{{bos_token}}{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}",
+    "bos_token": "<|startoftext|>",
+    "eos_token": "<|im_end|>",
+    "totalFileSize": 1487557568
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "b8b390795cd92327409d8239907fa086cffcd0b6",
+      "size": 1930
+    },
+    {
+      "rfilename": "LFM2-700M-F16.gguf",
+      "blobId": "1c9282261426ded8bfe6c3c72d7cf5ecfe484fab",
+      "size": 1487557568,
+      "lfs": {
+        "sha256": "e51cf86c25c2c96e157a3882ae3acd6462cac8cab40cf1c72e830cdbefc3456b",
+        "size": 1487557568,
+        "pointerSize": 135
+      }
+    },
+    {
+      "rfilename": "LFM2-700M-Q4_0.gguf",
+      "blobId": "90c8b088ad13c3c97a5e55e3daaed34952af04b2",
+      "size": 446321600,
+      "lfs": {
+        "sha256": "bf9c70678aff2a6ee2152b6fef4b2993892eae6449d056cf77cc1e34072424b3",
+        "size": 446321600,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "LFM2-700M-Q4_K_M-hip-optimized.gguf",
+      "blobId": "6f7e3318624f0a35d750139675ae35dfc0d2aacf",
+      "size": 513954752,
+      "lfs": {
+        "sha256": "3a52599c1f1da9b018e8ee92df06ac3e2d51416199afbe2205f31d07771ae410",
+        "size": 513954752,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "LFM2-700M-Q4_K_M.gguf",
+      "blobId": "30c2fe0c96aa2e7cde60ca3e0e30cbda488b8f41",
+      "size": 468624320,
+      "lfs": {
+        "sha256": "684e8406dc13321452b3f6aeca432776e2a6a7e1ad6c23f7887b8fe3efbe2efa",
+        "size": 468624320,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "LFM2-700M-Q5_K_M.gguf",
+      "blobId": "3d10eb954ad45820b7a0bd4c7a05785a53b58ad1",
+      "size": 538026944,
+      "lfs": {
+        "sha256": "af3856f0072c09376792305e6c2af6f888e89cff9e9ff54ffea681363cdc074b",
+        "size": 538026944,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "LFM2-700M-Q6_K.gguf",
+      "blobId": "88f70b1e2c48e1a47ade5278ddb95f9a311f20c6",
+      "size": 611767232,
+      "lfs": {
+        "sha256": "11bdf172b409c39e71a84748df07f2c9298699484777a5464a6cc048dc82bd7b",
+        "size": 611767232,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "LFM2-700M-Q8_0.gguf",
+      "blobId": "e751492913b2085f9f114372e26641dd2a3d7655",
+      "size": 791565248,
+      "lfs": {
+        "sha256": "0967d902ed270d07cb374a1972bb5da4338d2a303b565cf4eb7948b958e751ab",
+        "size": 791565248,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "LICENSE",
+      "blobId": "d24c9208b10e63d317589bc8d6fc34967c3068d3",
+      "size": 10596
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "fb86d17f1cbb771d22e33cb15e8289d60bed9a4a",
+      "size": 1486
+    },
+    {
+      "rfilename": "leap/Q4_0.json",
+      "blobId": "a68141dc1cfb1d5bae444d15d20a24129151a1b4",
+      "size": 1799
+    },
+    {
+      "rfilename": "leap/Q4_K_M.json",
+      "blobId": "ea1dc499810ed634c1eaf3275c9b414684c2d8ec",
+      "size": 1801
+    },
+    {
+      "rfilename": "leap/Q5_K_M.json",
+      "blobId": "c13bcd49b758685e7b07cd15168042b67b495850",
+      "size": 1801
+    },
+    {
+      "rfilename": "leap/Q8_0.json",
+      "blobId": "67b9f7127255407a16d55553cf79f8ffb4561efd",
+      "size": 1799
+    }
+  ],
+  "spaces": [
+    "kamiloki/Swyrlz"
+  ],
+  "createdAt": "2025-07-12T12:02:37.000Z",
+  "usedStorage": 4857817664
+}

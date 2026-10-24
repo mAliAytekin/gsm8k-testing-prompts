@@ -1,0 +1,50 @@
+{
+  "state": "generated",
+  "question_id": "gsm8k:train:00000",
+  "question_hash": "267c42756a56ed581b3bb25e1d697b836375aef3186635893af673ef54f73fe4",
+  "request": {
+    "model": "gemma4:26b-mlx",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Write a concise teaching solution to the arithmetic word problem in English.\nExplain how the quantities relate, using 2 to 4 short calculation steps.\nUse plain arithmetic equalities with +, -, *, / and parentheses; no LaTeX.\nUse at most 45 words. Do not repeat the question.\nEnd with exactly one line FINAL: <number>.\nThe number must be an integer, decimal or fraction.\nReturn only the teaching solution. Do not include hidden reasoning or commentary."
+      },
+      {
+        "role": "user",
+        "content": "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?"
+      }
+    ],
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 20261021,
+      "num_ctx": 4096,
+      "num_predict": 512,
+      "top_k": 1,
+      "top_p": 1.0,
+      "min_p": 0.0,
+      "repeat_penalty": 1.0
+    },
+    "think": false,
+    "keep_alive": "10m"
+  },
+  "started_at": "2026-10-21T15:41:20.089768+00:00",
+  "response": {
+    "model": "gemma4:26b-mlx",
+    "created_at": "2026-10-21T15:41:34.082048Z",
+    "message": {
+      "role": "assistant",
+      "content": "April sales: 48\nMay sales: 48 / 2 = 24\nTotal sales: 48 + 24 = 72\n\nFINAL: 72"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 13991669375,
+    "load_duration": 8632644000,
+    "prompt_eval_count": 154,
+    "prompt_eval_cached_count": 0,
+    "prompt_eval_duration": 4075043916,
+    "eval_count": 41,
+    "eval_duration": 1271325125
+  },
+  "wall_seconds": 13.996892916969955
+}

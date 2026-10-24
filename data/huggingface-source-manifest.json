@@ -1,0 +1,24 @@
+{
+  "dataset": "openai/gsm8k",
+  "source": "https://huggingface.co/datasets/openai/gsm8k",
+  "config": "main",
+  "revision": "740312add88f781978c0658806c59bc2815b9866",
+  "files": [
+    {
+      "split": "train",
+      "rows": 7473,
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/train-00000-of-00001.parquet",
+      "parquet_sha256": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+      "jsonl_sha256": "17f347dc51477c50d4efb83959dbb7c56297aba886e5544ee2aaed3024813465"
+    },
+    {
+      "split": "test",
+      "rows": 1319,
+      "url": "https://huggingface.co/datasets/openai/gsm8k/resolve/740312add88f781978c0658806c59bc2815b9866/main/test-00000-of-00001.parquet",
+      "parquet_sha256": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59",
+      "jsonl_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14"
+    }
+  ],
+  "serialization": "json.dumps(ensure_ascii=True) plus newline; identical canonical JSONL bytes",
+  "pyarrow_version": "25.0.1"
+}

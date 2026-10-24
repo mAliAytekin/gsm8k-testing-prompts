@@ -1,0 +1,7 @@
+Write a concise teaching solution to the arithmetic word problem in English.
+Explain how the quantities relate, using 2 to 4 short calculation steps.
+Use plain arithmetic equalities with +, -, *, / and parentheses; no LaTeX.
+Use at most 45 words. Do not repeat the question.
+End with exactly one line FINAL: <number>.
+The number must be an integer, decimal or fraction.
+Return only the teaching solution. Do not include hidden reasoning or commentary.

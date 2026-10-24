@@ -1,0 +1,7 @@
+{
+  "pid": 62963,
+  "command": "caffeinate -i .venv/bin/python -u scripts/sample_run.py run",
+  "log": "artifacts/sample1000.log",
+  "planned_questions": 1000,
+  "planned_generations": 80000
+}

@@ -1,0 +1,1 @@
+Solve the given arithmetic word problem using the requested representation. Use only the information in the question and standard unit conversions. Follow the output contract exactly. Do not discuss alternative answers. Do not use external information.

@@ -1,0 +1,71 @@
+{
+  "models": [
+    {
+      "id": "lfm2-350m",
+      "name": "LFM2-350M",
+      "source": "https://huggingface.co/LiquidAI/LFM2-350M-GGUF",
+      "model_card": "https://huggingface.co/LiquidAI/LFM2-350M",
+      "revision": "8fdc9d526b7ed346b19257551b05816c7912ecc2",
+      "filename": "LFM2-350M-Q8_0.gguf",
+      "size": 379214784,
+      "sha256": "b7bfeab6495a1ae3ae78811c1297df9f301b35261ff9580d42fb30dc4dc9034b",
+      "quantization": "Q8_0",
+      "ollama": "gsm8k-lfm2-350m:q8_0",
+      "origin": "official publisher GGUF; explicitly local alias, not a registry tag"
+    },
+    {
+      "id": "lfm2-700m",
+      "name": "LFM2-700M",
+      "source": "https://huggingface.co/LiquidAI/LFM2-700M-GGUF",
+      "model_card": "https://huggingface.co/LiquidAI/LFM2-700M",
+      "revision": "fd39e80d7a5ac61494ffff577e61bbbfddbd0d02",
+      "filename": "LFM2-700M-Q8_0.gguf",
+      "size": 791565248,
+      "sha256": "0967d902ed270d07cb374a1972bb5da4338d2a303b565cf4eb7948b958e751ab",
+      "quantization": "Q8_0",
+      "ollama": "gsm8k-lfm2-700m:q8_0",
+      "origin": "official publisher GGUF; explicitly local alias, not a registry tag"
+    },
+    {
+      "id": "lfm2-1.2b",
+      "name": "LFM2-1.2B",
+      "source": "https://huggingface.co/LiquidAI/LFM2-1.2B-GGUF",
+      "model_card": "https://huggingface.co/LiquidAI/LFM2-1.2B",
+      "revision": "5399e76c648f4eb8c053feb1ab747277dea5bf8b",
+      "filename": "LFM2-1.2B-Q8_0.gguf",
+      "size": 1246251968,
+      "sha256": "0d9ec100a0f33048168d1d5b9fb6403f4836adcbbe9c3f2ab7794c96ffee3c3b",
+      "quantization": "Q8_0",
+      "ollama": "gsm8k-lfm2-1.2b:q8_0",
+      "origin": "official publisher GGUF; explicitly local alias, not a registry tag"
+    },
+    {
+      "id": "qwen3-0.6b",
+      "name": "Qwen3-0.6B",
+      "source": "https://huggingface.co/Qwen/Qwen3-0.6B-GGUF",
+      "model_card": "https://huggingface.co/Qwen/Qwen3-0.6B",
+      "revision": "23749fefcc72300e3a2ad315e1317431b06b590a",
+      "filename": "Qwen3-0.6B-Q8_0.gguf",
+      "size": 639446688,
+      "sha256": "9465e63a22add5354d9bb4b99e90117043c7124007664907259bd16d043bb031",
+      "quantization": "Q8_0",
+      "ollama": "gsm8k-qwen3-0.6b:q8_0",
+      "origin": "official publisher GGUF; explicitly local alias, not a registry tag"
+    },
+    {
+      "id": "qwen3-1.7b",
+      "name": "Qwen3-1.7B",
+      "source": "https://huggingface.co/Qwen/Qwen3-1.7B-GGUF",
+      "model_card": "https://huggingface.co/Qwen/Qwen3-1.7B",
+      "revision": "90862c4b9d2787eaed51d12237eafdfe7c5f6077",
+      "filename": "Qwen3-1.7B-Q8_0.gguf",
+      "size": 1834426016,
+      "sha256": "061b54daade076b5d3362dac252678d17da8c68f07560be70818cace6590cb1a",
+      "quantization": "Q8_0",
+      "ollama": "gsm8k-qwen3-1.7b:q8_0",
+      "origin": "official publisher GGUF; explicitly local alias, not a registry tag"
+    }
+  ],
+  "verified_on": "2026-10-21",
+  "choice": "Publisher Q8_0 for all five targets; no substitution. Registry qwen3:0.6b-q8_0 and qwen3:1.7b-q8_0 exist but publisher GGUFs selected for uniform provenance."
+}

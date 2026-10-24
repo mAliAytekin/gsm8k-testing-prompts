@@ -1,0 +1,14 @@
+{
+  "protocol_version": "sample1000-warm-v1",
+  "base_config": "configs/experiment.json",
+  "database": "results/sample1000-warm.sqlite",
+  "question_manifest": "data/sample1000-manifest.json",
+  "question_selection": "seeded sample from combined main train+test excluding active demonstrations",
+  "question_count": 1000,
+  "selection_seed": 20261021,
+  "demonstration_pair": "A",
+  "k9_shots": 1,
+  "k9_example_id": "gsm8k:train:00000",
+  "bootstrap_samples": 10000,
+  "model_lock": "configs/model-lock.json"
+}

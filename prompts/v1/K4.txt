@@ -1,0 +1,1 @@
+Output only a short Python 3.12 program that computes the answer. Choose any suitable solution representation. Standard library modules and SymPy 1.13.3 are available. Print exactly one line: FINAL: <number>, where <number> is an integer, decimal, or fraction. No prose or Markdown. No input(), files, network, or randomness.

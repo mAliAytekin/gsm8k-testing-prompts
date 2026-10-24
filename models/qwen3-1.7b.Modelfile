@@ -1,0 +1,2 @@
+FROM /Users/mytkn/Desktop/myExperiments/gsm8k/models/Qwen3-1.7B-Q8_0.gguf
+PARAMETER num_ctx 4096

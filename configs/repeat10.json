@@ -1,0 +1,12 @@
+{
+  "protocol_version": "repeat10-warm-v5",
+  "base_config": "configs/experiment.json",
+  "database": "results/repeat10-warm.sqlite",
+  "question_selection": "first 10 IDs in fixed pilot manifest order",
+  "question_count": 10,
+  "demonstration_pair": "A",
+  "k9_shots": 1,
+  "k9_example_id": "gsm8k:train:00000",
+  "bootstrap_samples": 10000,
+  "model_lock": "configs/model-lock.json"
+}

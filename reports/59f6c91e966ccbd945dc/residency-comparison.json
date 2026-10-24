@@ -1,0 +1,53 @@
+{
+  "old_run": "3b2984ce0292b96ff827",
+  "new_run": "59f6c91e966ccbd945dc",
+  "old": {
+    "records": 800,
+    "correct": 195,
+    "statuses": {
+      "syntax_error": 174,
+      "correct": 195,
+      "format_error": 308,
+      "wrong_answer": 105,
+      "runtime_api_error": 14,
+      "resource_limit": 1,
+      "generation_truncated": 3
+    },
+    "generation_seconds": 673.97222358,
+    "load_seconds": 310.634357863,
+    "execution_seconds": 64.30031491821865,
+    "total_seconds": 738.2725384982186,
+    "warm": 0,
+    "cached_requests": 0,
+    "cached_tokens": 0,
+    "missing_cache_counts": 0
+  },
+  "new": {
+    "records": 800,
+    "correct": 195,
+    "statuses": {
+      "syntax_error": 174,
+      "correct": 195,
+      "format_error": 308,
+      "wrong_answer": 105,
+      "runtime_api_error": 14,
+      "resource_limit": 1,
+      "generation_truncated": 3
+    },
+    "generation_seconds": 338.618585213786,
+    "load_seconds": 11.485100842,
+    "execution_seconds": 62.547341047087684,
+    "total_seconds": 401.1659262608737,
+    "warm": 796,
+    "cached_requests": 318,
+    "cached_tokens": 55218,
+    "missing_cache_counts": 0
+  },
+  "raw_outputs_identical": 800,
+  "correctness_changed": 0,
+  "speedup": 1.8403171609797397,
+  "time_reduction_percent": 45.66154023866057,
+  "all_questions_hours": 97.95134699536332,
+  "test_hours": 14.698273798280344,
+  "all_questions": 8790
+}

@@ -1,0 +1,50 @@
+{
+  "state": "generated",
+  "question_id": "gsm8k:train:00003",
+  "question_hash": "05396020ca48918165967b9f6e86c0311032fac0ca4cf6aa56ef1182d02d012a",
+  "request": {
+    "model": "gemma4:26b-mlx",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Write a concise teaching solution to the arithmetic word problem in English.\nExplain how the quantities relate, using 2 to 4 short calculation steps.\nUse plain arithmetic equalities with +, -, *, / and parentheses; no LaTeX.\nUse at most 45 words. Do not repeat the question.\nEnd with exactly one line FINAL: <number>.\nThe number must be an integer, decimal or fraction.\nReturn only the teaching solution. Do not include hidden reasoning or commentary."
+      },
+      {
+        "role": "user",
+        "content": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?"
+      }
+    ],
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 20261021,
+      "num_ctx": 4096,
+      "num_predict": 512,
+      "top_k": 1,
+      "top_p": 1.0,
+      "min_p": 0.0,
+      "repeat_penalty": 1.0
+    },
+    "think": false,
+    "keep_alive": "10m"
+  },
+  "started_at": "2026-10-21T15:42:41.709510+00:00",
+  "response": {
+    "model": "gemma4:26b-mlx",
+    "created_at": "2026-10-21T15:42:43.200309Z",
+    "message": {
+      "role": "assistant",
+      "content": "Pages read yesterday: 12\nPages read today: 12 * 2 = 24\nTotal read so far: 12 + 24 = 36\nRemaining pages: 120 - 36 = 84\nTomorrow's goal: 84 / 2 = 42\n\nFINAL: 42"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 1489790708,
+    "load_duration": 10834875,
+    "prompt_eval_count": 171,
+    "prompt_eval_cached_count": 108,
+    "prompt_eval_duration": 522708708,
+    "eval_count": 77,
+    "eval_duration": 948735792
+  },
+  "wall_seconds": 1.4911636670003645
+}

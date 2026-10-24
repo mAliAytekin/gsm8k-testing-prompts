@@ -1,0 +1,7 @@
+{
+  "model": "gemma4:26b-mlx",
+  "created_at": "2026-10-21T15:42:44.411067Z",
+  "response": "",
+  "done": true,
+  "done_reason": "unload"
+}

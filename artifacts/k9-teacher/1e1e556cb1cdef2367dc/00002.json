@@ -1,0 +1,50 @@
+{
+  "state": "generated",
+  "question_id": "gsm8k:train:00002",
+  "question_hash": "04709110fa6c2e75d092cd6d7ecac825fa36f685bd8fa06bb58301ca3654010f",
+  "request": {
+    "model": "gemma4:26b-mlx",
+    "messages": [
+      {
+        "role": "system",
+        "content": "Write a concise teaching solution to the arithmetic word problem in English.\nExplain how the quantities relate, using 2 to 4 short calculation steps.\nUse plain arithmetic equalities with +, -, *, / and parentheses; no LaTeX.\nUse at most 45 words. Do not repeat the question.\nEnd with exactly one line FINAL: <number>.\nThe number must be an integer, decimal or fraction.\nReturn only the teaching solution. Do not include hidden reasoning or commentary."
+      },
+      {
+        "role": "user",
+        "content": "Betty is saving money for a new wallet which costs $100. Betty has only half of the money she needs. Her parents decided to give her $15 for that purpose, and her grandparents twice as much as her parents. How much more money does Betty need to buy the wallet?"
+      }
+    ],
+    "stream": false,
+    "options": {
+      "temperature": 0,
+      "seed": 20261021,
+      "num_ctx": 4096,
+      "num_predict": 512,
+      "top_k": 1,
+      "top_p": 1.0,
+      "min_p": 0.0,
+      "repeat_penalty": 1.0
+    },
+    "think": false,
+    "keep_alive": "10m"
+  },
+  "started_at": "2026-10-21T15:41:34.090587+00:00",
+  "response": {
+    "model": "gemma4:26b-mlx",
+    "created_at": "2026-10-21T15:41:36.187763Z",
+    "message": {
+      "role": "assistant",
+      "content": "Money needed: 100 - 50 = 50.\nParents give: 15.\nGrandparents give: 15 * 2 = 30.\nTotal gift: 15 + 30 = 45.\nRemaining needed: 50 - 45 = 5.\n\nStep-by-step:\n1. Half of 100 is 50.\n2. Grandparents give 15 * 2 = 30.\n3. Total gift is 15 + 30 = 45.\n4. Remaining needed is 50 - 45 = 5.\n\nFINAL: 5"
+    },
+    "done": true,
+    "done_reason": "stop",
+    "total_duration": 2093021959,
+    "load_duration": 20823084,
+    "prompt_eval_count": 177,
+    "prompt_eval_cached_count": 108,
+    "prompt_eval_duration": 156244833,
+    "eval_count": 149,
+    "eval_duration": 1912871917
+  },
+  "wall_seconds": 2.099011500016786
+}

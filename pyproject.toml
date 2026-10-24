@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools==75.8.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "gsm8k-lab"
+version = "0.1.0"
+requires-python = ">=3.12,<3.14"
+dependencies = ["numpy==2.2.2", "matplotlib==3.10.0"]
+[project.scripts]
+gsm8k-lab = "gsm8k_lab.cli:main"
+[tool.setuptools.packages.find]
+include = ["gsm8k_lab*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["integration: actual Docker isolation checks"]

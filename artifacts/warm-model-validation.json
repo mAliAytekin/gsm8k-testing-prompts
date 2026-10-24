@@ -1,0 +1,110 @@
+{
+  "created_at": "2026-10-22T05:25:26.939196+00:00",
+  "diagnostic_only": true,
+  "model_digest": "7882d78c06dbbe699134345a78284aba6cfba6ac03be8afd12beae1a760b62e7",
+  "passed": true,
+  "records": [
+    {
+      "index": 1,
+      "warm_before": false,
+      "resident_after": true,
+      "request": {
+        "model": "gsm8k-lfm2-350m:q8_0",
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a transport and model residency diagnostic, not a research evaluation. Follow the requested short output instruction."
+          },
+          {
+            "role": "user",
+            "content": "Reply with the single word READY."
+          }
+        ],
+        "stream": false,
+        "options": {
+          "temperature": 0,
+          "seed": 20261021,
+          "num_ctx": 4096,
+          "num_predict": 16,
+          "top_k": 1,
+          "top_p": 1.0,
+          "min_p": 0.0,
+          "repeat_penalty": 1.0,
+          "repeat_last_n": 64,
+          "num_thread": 8,
+          "num_batch": 512
+        },
+        "keep_alive": "30m"
+      },
+      "response": {
+        "model": "gsm8k-lfm2-350m:q8_0",
+        "created_at": "2026-10-22T05:25:26.914018Z",
+        "message": {
+          "role": "assistant",
+          "content": "READY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 556349750,
+        "load_duration": 524825792,
+        "prompt_eval_count": 44,
+        "prompt_eval_cached_count": 0,
+        "prompt_eval_duration": 22588000,
+        "eval_count": 3,
+        "eval_duration": 6821000
+      },
+      "wall_seconds": 0.5578204580233432
+    },
+    {
+      "index": 2,
+      "warm_before": true,
+      "resident_after": true,
+      "request": {
+        "model": "gsm8k-lfm2-350m:q8_0",
+        "messages": [
+          {
+            "role": "system",
+            "content": "This is a transport and model residency diagnostic, not a research evaluation. Follow the requested short output instruction."
+          },
+          {
+            "role": "user",
+            "content": "Reply with the single word READY."
+          }
+        ],
+        "stream": false,
+        "options": {
+          "temperature": 0,
+          "seed": 20261021,
+          "num_ctx": 4096,
+          "num_predict": 16,
+          "top_k": 1,
+          "top_p": 1.0,
+          "min_p": 0.0,
+          "repeat_penalty": 1.0,
+          "repeat_last_n": 64,
+          "num_thread": 8,
+          "num_batch": 512
+        },
+        "keep_alive": "30m"
+      },
+      "response": {
+        "model": "gsm8k-lfm2-350m:q8_0",
+        "created_at": "2026-10-22T05:25:26.938265Z",
+        "message": {
+          "role": "assistant",
+          "content": "READY"
+        },
+        "done": true,
+        "done_reason": "stop",
+        "total_duration": 21543834,
+        "load_duration": 9839625,
+        "prompt_eval_count": 44,
+        "prompt_eval_cached_count": 40,
+        "prompt_eval_duration": 4541000,
+        "eval_count": 3,
+        "eval_duration": 5891000
+      },
+      "wall_seconds": 0.022850291978102177
+    }
+  ]
+}

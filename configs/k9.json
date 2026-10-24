@@ -1,0 +1,23 @@
+{
+  "protocol_version": "k9-v1",
+  "teacher_model": "gemma4:26b-mlx",
+  "teacher_timeout_seconds": 600,
+  "teacher_options": {
+    "temperature": 0,
+    "seed": 20261021,
+    "num_ctx": 4096,
+    "num_predict": 512,
+    "top_k": 1,
+    "top_p": 1.0,
+    "min_p": 0.0,
+    "repeat_penalty": 1.0
+  },
+  "teacher_think": false,
+  "demonstration_train_indices": [
+    0,
+    2,
+    3,
+    4
+  ],
+  "demonstrations": "demonstrations/k9/teacher.json"
+}
