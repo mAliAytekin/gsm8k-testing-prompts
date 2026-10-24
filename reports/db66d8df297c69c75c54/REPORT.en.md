@@ -106,8 +106,8 @@ Review request: distinguish observed numbers, possible explanations, and causes 
 
 ## Accompanying files
 
-- [Annotated figure](accuracy.png): condition names and demonstration counts are labeled in Turkish; use the English definitions above to interpret the matching IDs.
-- [Vector figure](accuracy.svg).
+- [Annotated figure](accuracy.en.png): condition names and demonstration counts are labeled in English.
+- [Vector figure](accuracy.en.svg).
 - [Machine-readable results](summary.json).
 - [Cell-level results and costs](summary.csv).
 - [Run audit](audit.json).

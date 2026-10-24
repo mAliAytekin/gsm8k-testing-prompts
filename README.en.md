@@ -45,7 +45,7 @@ is a sample evaluation using a design fixed after earlier exploratory work.
 
 ### Annotated figure
 
-![End-to-end accuracy of 16 conditions across five Q8_0 models on 1,000 GSM8K questions](reports/db66d8df297c69c75c54/accuracy.png)
+![End-to-end accuracy of 16 conditions across five Q8_0 models on 1,000 GSM8K questions](reports/db66d8df297c69c75c54/accuracy.en.png)
 
 **How to read the figure:** rows are conditions, columns are models, and darker
 blue means higher accuracy. Each cell covers 1,000 questions. Percentages divide
@@ -53,9 +53,8 @@ correct outputs by the 1,000 planned questions and are shown only for fully
 evaluable cells. `N/A` marks a cell with missing infrastructure coverage.
 `1shot` means one solved demonstration and `2shot` means two; these are not numbers
 of generation attempts. CoT means step-by-step natural-language reasoning, PAL
-means a Python program, and SymPy means symbolic mathematics code. The figure
-retains Turkish descriptive labels; the condition IDs correspond to the English
-table above.
+means a Python program, and SymPy means symbolic mathematics code. The figure uses English descriptions and demonstration counts; condition IDs
+correspond to the table above.
 
 **The metric is end-to-end success:** formatting, execution, and numerical
 correctness are evaluated jointly. The figure should therefore not be interpreted
@@ -170,7 +169,7 @@ made. K9 uses one fixed teacher example; robustness across other example pairs
 has not been measured. GSM8K overlap with model training data cannot be ruled out.
 
 - [Self-contained detailed report in English](reports/db66d8df297c69c75c54/REPORT.en.md)
-- [Figure — PNG](reports/db66d8df297c69c75c54/accuracy.png) · [SVG](reports/db66d8df297c69c75c54/accuracy.svg)
+- [Figure — PNG](reports/db66d8df297c69c75c54/accuracy.en.png) · [SVG](reports/db66d8df297c69c75c54/accuracy.en.svg)
 - [Machine-readable results](reports/db66d8df297c69c75c54/summary.json) · [Cell-level results and costs](reports/db66d8df297c69c75c54/summary.csv)
 - [Run audit](reports/db66d8df297c69c75c54/audit.json)
 - [Reports, figure, results, and question manifest — ZIP](reports/db66d8df297c69c75c54/GSM8K_REPORT_PACKAGE.zip)
